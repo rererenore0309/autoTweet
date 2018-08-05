@@ -10,7 +10,7 @@ print(driver)
 driver.get('https://twitter.com/login?lang=ja')
 print('https://twitter.com/login?lang=ja')
 
-#メールアドレス、パスワード入力する。
+#メールアドレス、パスワード入力する.。
 id = driver.find_element_by_class_name("js-username-field")
 print(id)
 id.send_keys('yourID')
