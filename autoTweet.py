@@ -21,7 +21,7 @@ sleep(1)
 password.submit()
 sleep(1)
 
-#ツイートaa
+#ツイート
 tweet = driver.find_element_by_id('tweet-box-home-timeline')
 #現在時刻を入力。
 tweet.send_keys(str(datetime.datetime.now()))
